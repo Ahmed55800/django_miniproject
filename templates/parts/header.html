@@ -1,0 +1,50 @@
+<header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p class="add-second">United States</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="nav-signin border">
+                <p><span>Hello, Sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+            <div class="nav-cart border">
+                <i class="fas fa-shopping-cart"></i>
+                Cart
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+        
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fas fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p><a href="{% url 'home' %}">Home</a></p>
+                <p><a href="{% url 'addpage' %}">Sell</a></p>
+            </div>
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
